@@ -9,7 +9,7 @@ import { MainPage } from "./views/MainPage/MainPage.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/e-commerce",
+    path: "/",
     element: <MainPage />,
   },
 ]);

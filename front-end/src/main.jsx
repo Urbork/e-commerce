@@ -5,12 +5,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import App from "./App.jsx";
-import { MainPage } from "./views/MainPage/MainPage.jsx";
+import { Cart } from "./views/Cart/Cart.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainPage />,
+    element: <Cart />,
   },
 ]);
 

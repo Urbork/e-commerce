@@ -7,3 +7,7 @@
   background-color: var(--color-theme-main);
   font-weight: 700;
 }
+
+.black {
+  background-color: var(--color-text-default);
+}

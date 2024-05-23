@@ -6,7 +6,7 @@ import { Products } from "../../components/Products/Products";
 import { Pagination } from "../../components/Pagination/Pagination";
 
 export function ProductsList() {
-  const products = useLoaderData();
+  const { products, numberOfPages } = useLoaderData();
   const params = useParams();
 
   const foundCategory = CATEGORIES.find((c) => c.path === params.category);
@@ -32,7 +32,7 @@ export function ProductsList() {
             }
             products={products}
           />
-          <Pagination numberOfPages={5} />
+          <Pagination numberOfPages={numberOfPages} />
         </div>
       </FlexContainer>
     </>

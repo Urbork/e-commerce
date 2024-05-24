@@ -1,9 +1,10 @@
-import { Layout } from "../../components/Layout/Layout";
+import { useLoaderData, useParams } from "react-router-dom";
 import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { ExpandableMenu } from "../../components/ExpandableMenu/ExpandableMenu";
 import { Breadcrumbs } from "../../components/Breadcrumbs/Breadcrumbs";
 import { Products } from "../../components/Products/Products";
 import { Pagination } from "../../components/Pagination/Pagination";
+import { CATEGORIES } from "../../constants/categories";
 
 export function ProductsList() {
   const { products, numberOfPages } = useLoaderData();

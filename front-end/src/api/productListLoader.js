@@ -2,7 +2,7 @@ import { redirect } from "react-router-dom";
 import { BACK_END_URL, PATH_TO_ENDPOINT_MAPPING } from "../constants/api";
 import { CATEGORIES } from "../constants/categories";
 
-export function productListLoader({
+export function productsListLoader({
   params: { gender, category, subcategory },
   request,
 }) {

@@ -1,4 +1,6 @@
 import styles from "./FavouriteProduct.module.css";
+import { useContext } from "react";
+import { CartContext } from "../../contexts/CartContext";
 import { useFetcher } from "react-router-dom";
 import { Price } from "../Price/Price";
 import REMOVE_ICON from "../../assets/remove.svg";
@@ -9,6 +11,8 @@ export function FavouriteProduct({ favourite }) {
   const { Form } = useFetcher();
 
   const price = <Price product={product} />;
+
+  const [, addProductToCart] = useContext(CartContext);
 
   return (
     <>
@@ -30,7 +34,11 @@ export function FavouriteProduct({ favourite }) {
               action={`/delete-from-favourites/${favourite.id}`}
               method="DELETE"
             >
-              <button>
+              <button
+                onClick={() => {
+                  addProductToCart(product);
+                }}
+              >
                 <img src={REMOVE_ICON} />
                 Usuń
               </button>

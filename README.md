@@ -13,9 +13,8 @@ Welcome to my first simple e-commerce project built with React! This project is 
 
 - **Product Listing:** View a list of products with images, names, and prices.
 - **Product Details:** Click on a product to view more details.
-- **Shopping Cart:** Add products to the shopping cart, view cart items, and remove items from the cart.
-- **Checkout:** Proceed to a simple checkout page to complete the purchase.
-- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Shopping Cart:** Add products to the shopping cart, view cart items.
+- **Favourites:** Add products to the favourites list, view favourites.
 
 ## Demo
 

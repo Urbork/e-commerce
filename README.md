@@ -18,7 +18,7 @@ Welcome to my first simple e-commerce project built with React! This project is 
 
 ## Demo
 
-Check out the live demo of the project [here](#).
+Check out the live demo of the project [here](#). (Coming soon)
 
 ## Usage
 

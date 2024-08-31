@@ -8,6 +8,7 @@ Welcome to my first simple e-commerce project built with React! This project is 
 - [Demo](#demo)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
+- [Setup](#-setup)
 
 ## Features
 
@@ -16,9 +17,11 @@ Welcome to my first simple e-commerce project built with React! This project is 
 - **Shopping Cart:** Add products to the shopping cart, view cart items.
 - **Favourites:** Add products to the favourites list, view favourites.
 
-## Demo
+## Demo (Coming soon)
 
-Check out the live demo of the project [here](#). (Coming soon)
+Work in progress...
+
+![preview](https://i.imgur.com/4xtWvzu.jpeg)
 
 ## Usage
 
@@ -35,3 +38,37 @@ Check out the live demo of the project [here](#). (Coming soon)
 - **useContext:** React hook for handling state across the application.
 - **CSS:** Styling the application.
 - **Fake API:** Simulated backend for fetching product data.
+
+## 💻 Setup
+
+To run the program from the repository on your local computer, follow these steps:
+
+### 1. Downloading the Source Code
+
+Clone the Repository to your computer using the command:
+
+```commandline
+git clone https://github.com/Urbork/e-commerce.git
+```
+
+### 2. Installing Dependencies
+
+Navigate to the project directory:
+
+```commandline
+cd e-commerce
+```
+
+Install all required dependencies using a package manager like npm:
+
+```commandline
+npm install
+```
+
+### 3. Running the Application
+
+```commandline
+npm run dev
+```
+
+This command will start the application in developer mode and open it in a browser at http://localhost:5173
